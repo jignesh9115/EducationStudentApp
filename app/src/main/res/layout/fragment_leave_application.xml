@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_leave_application_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_leave_not_found"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/empty_list_icon" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_leave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        app:tint="@android:color/white"
+        app:elevation="0dp"
+        app:srcCompat="@drawable/ic_add_white"
+        android:backgroundTint="@color/colorPrimary"/>
+
+</RelativeLayout>

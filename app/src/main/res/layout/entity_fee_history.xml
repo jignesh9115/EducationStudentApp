@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:id="@+id/tv_fee_history_srno"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center|bottom"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1000"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_fee_history_recieptno"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ellipsize="end"
+            android:gravity="center|bottom"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Reciept No."
+            android:textColor="#000080"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/tv_fee_history_title"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:background="#FFFFFF"
+            android:ellipsize="end"
+            android:gravity="center|bottom"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Title"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_fee_history_date"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:background="#FFFFFF"
+            android:ellipsize="end"
+            android:gravity="center|bottom"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Date"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_fee_history_comments"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:background="#FFFFFF"
+            android:ellipsize="end"
+            android:gravity="center|bottom"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Comments"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_fee_history_amount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:background="#FFFFFF"
+            android:ellipsize="end"
+            android:gravity="center|bottom"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Amount"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</HorizontalScrollView>

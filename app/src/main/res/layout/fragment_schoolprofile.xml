@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="163sp"
+        android:background="@color/colorPrimaryDark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_schoolprofile_detail"
+                android:layout_width="match_parent"
+                android:layout_height="143sp"
+                android:layout_margin="10sp"
+                android:elevation="10dp"
+                app:cardElevation="30dp">
+
+                <ImageView
+                    android:id="@+id/img_school_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/imagenotfoundicon" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card_schoolprofile_detail"
+                android:layout_margin="10sp"
+                android:elevation="10dp"
+                app:cardElevation="30dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="School Name : "
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="School Name"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Address : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="address"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="State : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_state"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="state"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="City : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="city"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pincode : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_pincode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pincode"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact-1 : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_contact1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="contact"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/img_call_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ic_call_color" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Contact-2 : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_contact2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="contact2"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/img_call_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:src="@drawable/ic_call_color" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="email"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fax : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_fax"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="fax"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="FaceBook : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_facebook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="facebook"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Owner Name : "
+                            android:textColor="#000000"
+                            android:textSize="16dp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_school_person_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="person name"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+

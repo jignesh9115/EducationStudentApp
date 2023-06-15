@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_exam_list"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/tv_exam_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Annual Exam"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginLeft="10dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

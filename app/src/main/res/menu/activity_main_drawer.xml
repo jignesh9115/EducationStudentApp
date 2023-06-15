@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home_black"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/menu_icon_profile"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/nav_attendence"
+            android:icon="@drawable/menu_icon_attendence"
+            android:title="@string/menu_attendence" />
+
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@drawable/menu_icon_assignment"
+            android:title="Assignment" />
+
+
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/menu_icon_exam"
+            android:title="Exam" />
+
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/menu_icon_result"
+            android:title="Result" />
+
+        <item
+            android:id="@+id/nav_teacher"
+            android:icon="@drawable/menu_icon_teacher"
+            android:title="Teacher" />
+
+
+        <item
+            android:id="@+id/nav_holiday"
+            android:icon="@drawable/menu_icon_holiday"
+            android:title="Holiday" />
+
+        <item
+            android:id="@+id/nav_newsandevent"
+            android:icon="@drawable/menu_icon_event"
+            android:title="News And Event" />
+
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/menu_icon_notice"
+            android:title="Notice" />
+
+
+        <item
+            android:id="@+id/nav_schoolprifole"
+            android:icon="@drawable/menu_icon_university"
+            android:title="School Profile" />
+
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/menu_icon_timetable"
+            android:title="Time Table" />
+
+        <item
+            android:id="@+id/nav_leave_application"
+            android:icon="@drawable/menu_icon_leave"
+            android:title="Leave Application" />
+
+        <item
+            android:id="@+id/nav_fees"
+            android:icon="@drawable/menu_icon_fees"
+            android:title="Fees" />
+
+        <item
+            android:id="@+id/nav_photo_gallery"
+            android:icon="@drawable/menu_icon_photo_gallery"
+            android:title="Photo Gallery" />
+
+        <item
+            android:id="@+id/nav_video_gallery"
+            android:icon="@drawable/menu_icon_video_gallery"
+            android:title="Video Gallery" />
+
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/menu_icon_notification"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logouticon"
+            android:onClick="logout"
+            android:title="Logout" />
+
+    </group>
+
+</menu>

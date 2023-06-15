@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SubmitAssignment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:background="@color/colorPrimaryDark">
+
+
+            <ImageView
+                android:id="@+id/img_back_submit_assignment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_back_white"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:id="@+id/tv_exam_title_submit_assignment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Submit Assignment"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:id="@+id/tv_submit_assignment_work"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Your work"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_submit_assignment_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="20sp"
+                android:gravity="center"
+                android:text="Assigned"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_submit_assignment_add_attachment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/edttext_border"
+            android:drawableStart="@drawable/ic_add_black"
+            android:gravity="center|bottom"
+            android:text="Add attachment"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:layout_margin="10dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_submit_assignment_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+
+        <Button
+            android:id="@+id/btn_submit_assignment"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:text="Mark as Done"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/round_textview"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="50dp"
+            android:padding="5dp">
+
+            <EditText
+                android:id="@+id/edt_add_comment"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Add Comment"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:id="@+id/img_send_comment"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_send_color"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

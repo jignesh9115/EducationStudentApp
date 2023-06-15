@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOTICE"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/tv_notice_date_detail_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="07-09-2020 05:16:00 PM"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_notice_icon_detail_dialog"
+                android:layout_width="40dp"
+                android:layout_height="60dp"
+                android:src="@drawable/menu_icon_notice" />
+
+            <TextView
+                android:id="@+id/tv_notice_title_detail_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/img_notice_icon_detail_dialog"
+                android:ellipsize="end"
+                android:lines="1"
+                android:text="notice title"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:id="@+id/sv_description"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/rl"
+            android:scrollbars="none"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/tv_notice_description_detail_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="description"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/bnt_ok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:text="OK"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

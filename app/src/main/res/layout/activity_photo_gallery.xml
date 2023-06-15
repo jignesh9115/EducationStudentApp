@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhotoGalleryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_photo_gallery_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_arrow_back_white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo Gallery"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_photo_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:layout_margin="5dp"
+        android:verticalSpacing="3dp"
+        android:horizontalSpacing="3dp"/>
+
+    <ImageView
+        android:id="@+id/img_assignment_not_found"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:src="@drawable/empty_list_color_icon" />
+
+</LinearLayout>

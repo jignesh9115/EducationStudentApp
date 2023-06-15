@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Education App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_attendence">Attendence</string>
+
+
+    <string name="Base_url">http://projects.drbbagpks.org/educationsystem/API/</string>
+
+    <string name="student_list_url">student_list.php?phone_no=</string>
+    <string name="student_detail_url">student_detail.php?student_id=</string>
+    <string name="teacher_list_url">teacher_list_by_standard.php?standard_id=</string>
+    <string name="get_holiday_list_url">holiday_list.php</string>
+    <string name="get_event_url">evant_list.php</string>
+    <string name="school_detail_url">school_detail.php</string>
+    <string name="get_notice_list_url">notice_list.php</string>
+    <string name="get_exam_type_detail_url">examtype_details.php?standard_id=</string>
+    <string name="get_timetable_detail_by_standard_id">timetable_detailbystandard.php?standard_id=</string>
+    <string name="get_student_fee_detail_url">student_fee_detail.php?student_id=</string>
+    <string name="get_fee_detail_url">fees_detail.php?standard_id=</string>
+    <string name="view_attendance_url">view_attendance.php?month_val=</string>
+    <string name="add_assignment_url">add_assignment_by_student.php?assign_date=</string>
+    <string name="get_image_gallery_category_url">gallery_img_category.php</string>
+    <string name="get_video_gallery_category_url">gallery_video_category.php</string>
+    <string name="get_photo_gallery_url">gallery_img.php?image_category=</string>
+    <string name="get_video_gallery_url">gallery_video.php?video_category=</string>
+    <string name="add_leave_url">add_leaves.php?start_date=</string>
+    <string name="get_leave_list_url">leavet_list.php</string>
+    <string name="get_exam_detail_url">exam_details.php?standard_id=</string>
+    <string name="get_result_detail_url">result_details.php?standard_id=</string>
+
+
+</resources>

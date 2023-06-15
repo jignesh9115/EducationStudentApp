@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ai.educationapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.ai.educationapp.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_assignment"
+        android:name="com.ai.educationapp.ui.assignment.AssignmentFragment"
+        android:label="Assignment"
+        tools:layout="@layout/fragment_attendence" />
+
+    <fragment
+        android:id="@+id/nav_attendence"
+        android:name="com.ai.educationapp.ui.attendence.AttendenceFragment"
+        android:label="@string/menu_attendence"
+        tools:layout="@layout/fragment_attendence" />
+
+    <fragment
+        android:id="@+id/nav_exam"
+        android:name="com.ai.educationapp.ui.exam.ExamFragment"
+        android:label="Exam"
+        tools:layout="@layout/fragment_exam" />
+
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="com.ai.educationapp.ui.result.ResultFragment"
+        android:label="Result"
+        tools:layout="@layout/fragment_result" />
+
+
+    <fragment
+        android:id="@+id/nav_teacher"
+        android:name="com.ai.educationapp.ui.teacher.TeacherFragment"
+        android:label="Teacher"
+        tools:layout="@layout/fragment_teacher" />
+
+
+    <fragment
+        android:id="@+id/nav_video_gallery"
+        android:name="com.ai.educationapp.ui.videogallery.VideoGalleryFragment"
+        android:label="Video Gallery"
+        tools:layout="@layout/fragment_videogallery" />
+
+    <fragment
+        android:id="@+id/nav_holiday"
+        android:name="com.ai.educationapp.ui.holiday.HolidayFragment"
+        android:label="Holiday"
+        tools:layout="@layout/fragment_holiday" />
+
+    <fragment
+        android:id="@+id/nav_newsandevent"
+        android:name="com.ai.educationapp.ui.newsandevent.NewsAndEventFragment"
+        android:label="News And Event"
+        tools:layout="@layout/fragment_newsandevent" />
+
+    <fragment
+        android:id="@+id/nav_notice"
+        android:name="com.ai.educationapp.ui.notice.NoticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice" />
+
+    <fragment
+        android:id="@+id/nav_schoolprifole"
+        android:name="com.ai.educationapp.ui.schoolprofile.SchoolProfileFragment"
+        android:label="School Profile"
+        tools:layout="@layout/fragment_schoolprofile" />
+
+    <fragment
+        android:id="@+id/nav_timetable"
+        android:name="com.ai.educationapp.ui.timetable.TimeTableFragment"
+        android:label="Time Table"
+        tools:layout="@layout/fragment_timetable" />
+
+    <fragment
+        android:id="@+id/nav_leave_application"
+        android:name="com.ai.educationapp.ui.leaveapplication.LeaveApplicationFragment"
+        android:label="Leave Application"
+        tools:layout="@layout/fragment_leave_application" />
+
+    <fragment
+        android:id="@+id/nav_fees"
+        android:name="com.ai.educationapp.ui.fees.FeesFragment"
+        android:label="Fees"
+        tools:layout="@layout/fragment_fees" />
+
+    <fragment
+        android:id="@+id/nav_photo_gallery"
+        android:name="com.ai.educationapp.ui.photogallery.PhotoGalleryFragment"
+        android:label="Photo Gallery"
+        tools:layout="@layout/fragment_photogallery" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.ai.educationapp.ui.notification.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
+
+</navigation>

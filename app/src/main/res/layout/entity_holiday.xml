@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_holiday"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="30dp">
+
+            <TextView
+                android:id="@+id/tv_holiday_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="hp"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_holiday_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Holiday"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="03-09-2020 thu"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text=" TO 03-09-2020 thu"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
